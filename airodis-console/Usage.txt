@@ -1,0 +1,21 @@
+/*** Command Line Arguments ***/
+/*
+ * com.medisell.airodis.console must be executable on a UNIX terminal
+ * 
+ * 1) Test configuration file	
+ * Usage: java -jar airquality.jar -t
+ * 
+ * 2) Run SQL from file and save to output file (tab-delimited)
+ * Usage: java -jar airquality.jar -qf [query.sql] [output.tsv]
+ */
+ 
+ 
+Test1
+java -jar airquality.jar test1.sql test1.tsv
+Query: test1.sql
+Result: test1.tsv
+
+Test2
+java -jar airquality.jar test2.sql test2.tsv
+Query: test2.sql
+Result: test2.tsv
